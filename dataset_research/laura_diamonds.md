@@ -26,14 +26,14 @@ These nearly 54,000 observations on diamonds come from the [Diamond Search Engin
 Acquisition
 ---
 You can acquire the dataset cleanly from inside R. You must install the package ggplot2 first, using the command
-<code>install.packages("ggplot2")</code>
+<pre>install.packages("ggplot2")</pre>
 Then import the library into your current R workspace using
-<code>library("ggplot2")</code>
+<pre>library("ggplot2")</pre>
 You can now work with the dataset simply by calling any functions on "diamonds", a dataframe included in the ggplot2 download.
-<code>head(diamonds) //returns top 10 rows of diamonds
+<pre>head(diamonds) //returns top 10 rows of diamonds
 tail(diamonds) // returns bottom 10 rows of diamonds
 summary(diamonds) // returns 6 number summary on each of the 10 variables in diamonds
-?diamonds // displays help on diamonds, including definitions of each of the 10 variables</code>
+?diamonds // displays help on diamonds, including definitions of each of the 10 variables</pre>
 
 
 Statistics
