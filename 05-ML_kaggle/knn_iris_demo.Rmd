@@ -1,0 +1,42 @@
+# Exploring KNN and Training Error
+### Using `iris` data and the `class` package
+
+The `class` package contains several classification algorithms, including K Nearest Neighbors. (You can see information about a package after loading it with `library(help=packagename)`.)
+
+The KNN algorithm is different from many others in that since it uses all the training data for every prediction it doesn't have separate train and predict functions. We'll see many cases in which models are trained and then used for predicting later.
+
+Recall the `iris` dataset; take a look at `head(iris)` if you'd like to jog your memory.
+
+```{r, tidy=FALSE}
+library(class)
+
+# Use 1NN to predict for all the iris data
+predictions <- knn(train = iris[, 1:4],
+                   test  = iris[, 1:4],
+                   cl    = iris[, 5],   # labels
+                   k     = 1)
+
+# Display a simple confusion matrix
+table(iris[, 5], predictions)
+```
+
+The correct labels are on the left, and the predictions are across the top. We've got everything right!
+
+```{r, tidy=FALSE}
+# Try KNN with k=5
+predictions <- knn(train = iris[, 1:4],
+                   test  = iris[, 1:4],
+                   cl    = iris[, 5],   # labels
+                   k     = 5)
+
+# Display a simple confusion matrix
+table(iris[, 5], predictions)
+```
+
+Now there are some mistakes in the classifications.
+
+Some questions to think about:
+
+ * What does it mean to train and test on the same data? With 1NN, would we ever make any mistakes in these "predictions"?
+ * Since the k=5 predictions had more errors than the k=1 predictions, does it mean that k=1 is necessarily better?
+ * Can we tell how well our model would work for new data?

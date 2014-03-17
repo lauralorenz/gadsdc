@@ -33,6 +33,8 @@
  * Data Mining with R: Learning with Case Studies [[book site]](http://www.dcc.fc.up.pt/~ltorgo/DataMiningWithR/) [[amazon]](http://www.amazon.com/Data-Mining-Learning-Knowledge-Discovery/dp/1439810184)
  * [Data Science for Business: What you need to know about data mining and data-analytic thinking](http://www.amazon.com/Data-Science-Business-data-analytic-thinking/dp/1449361323/) (used as a textbook at NYU)
  * Microsoft's [Deep Learning: Methods and Applications](http://research.microsoft.com/pubs/209355/NOW-Book-Revised-Feb2014-online.pdf) (free PDF)
+ * [Mining the Social Web, 2nd Edition](http://shop.oreilly.com/product/0636920030195.do) is available for sale and also has a fairly comprehensive [github repository](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition) with all the code from the book, in friendly IPython Notebook format, even with a whole virtual machine setup.
+ * [Twitter Data Analytics](http://tweettracker.fulton.asu.edu/tda/) is available free online as a pre-print; it uses Java and MongoDB.
 
 
 ### Articles/Guides:
@@ -52,6 +54,13 @@
  * [O'Reilly Strata Conference](http://strataconf.com/) (has also crossed with Hadoop World)
  * [DataGotham](http://www.datagotham.com/)
  * [PyData](http://pydata.org/)
+
+
+# Journals:
+
+People publish in a lot of places; other journal suggestions welcomed!
+
+ * [Big Data](http://www.liebertpub.com/big) seems to be fairly broad.
 
 
 ### Meetups:
@@ -87,6 +96,9 @@
  * Hinton's Coursera course on [Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets)
  * Google's [Making Sense of Data](https://datasense.withgoogle.com/) course materials (seems very introductory; focuses on Google Fusion Tables)
  * [Quant Education](http://www.youtube.com/channel/UC37c5dtVf3BHWFr5v9NKSKw) YouTube channel of videos on `R`
+ * [Deep Learning tutorials](http://deeplearning.net/tutorial/contents.html) from deeplearning.net
+ * [Unsupervised Feature Learning and Deep Learning tutorials](http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial) from Stanford
+ * The well-known [machine learning couse](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning) of Andrew Ng; uses MatLab/Octave and focuses on gradient descent from the beginning
 
 
 ### Face to face educational programs:
