@@ -40,8 +40,8 @@ Statistics
 ---
 By running <code>summary(diamonds)</code>, we can get a six number summary on each of the variables. Without reproducing each summary, some interesting takeaways include:
 
-*The average price of a diamond in this dataset is $3,933; the most expensive is $18,823 and the least expensive is $326.
-*The average carat of a diamond in this dataset is 0.7979.
-*The average dimensions of a diamond in this dataset (length, width, depth) was 5.731 mm, 5.735 mm, 2.539 mm.
+- The average price of a diamond in this dataset is $3,933; the most expensive is $18,823 and the least expensive is $326.
+- The average carat of a diamond in this dataset is 0.7979.
+- The average dimensions of a diamond in this dataset (length, width, depth) was 5.731 mm, 5.735 mm, 2.539 mm.
 
 
