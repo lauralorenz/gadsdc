@@ -59,3 +59,5 @@ How do you know you're done?
  * You have a git repository accessible on github including all your project's data (if reasonably possible), source code, presentation slides, and final paper.
  * Your instructors have reviewed all your project work.
  * You have given your final presentation with your class and instructors. (Additional presentations to other audiences are also encouraged.)
+
+You can find some [example projects](examples/) from GA students in the [examples](examples/) directory. For even more inspiration, go to the bottom of [Andre Ng's CS229 site](http://cs229.stanford.edu/) and explore the "Recent years' projects"!

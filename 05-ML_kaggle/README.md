@@ -16,9 +16,12 @@ Optional:
 
 ### During
 
+Application presentation.
+
 Question review.
 
-Application presentation.
+ * Briefly discuss the [No Free Lunch theorem](http://en.wikipedia.org/wiki/No_free_lunch_theorem) - and being slightly less pessimistic about choosing machine learning algorithms.
+ * Briefly discuss the [curse of dimensionality](http://www.statsoft.com/Portals/0/blog/curse-of-dimensionality.jpg) and how it affects KNN, for example.
 
 [Take a look](knn_iris_demo.Rmd) at applying KNN and the idea of training error.
 
@@ -27,6 +30,18 @@ We're interested in test set performance. Kaggle nicely provides training and te
 In pairs, enter the [kaggle](http://www.kaggle.com/) [Titanic](http://www.kaggle.com/c/titanic-gettingStarted) competition. You have KNN handy, so try it. A very good starting point would be to use gender and passenger class. You may need to ensure that gender is numeric to get Euclidean distance from it. The main point here is to get a taste of kaggle and using a training and test set.
 
 [Slides](slides.pdf) on evaluation procedures and metrics.
+
+Note here, perhaps, the importance of optimizing the right thing. This relationship will be clearer with later models.
+
+The `caret` package has a `confusionMatrix` function that calculates a lot of categorical evaluation metrics. The `pROC` package has `roc` and `auc` functions.
+
+Implement 10-fold cross-validation for KNN classification accuracy. This should be a function that takes a training data set of features, the labels, and K. The function should return the accuracy arrived at by cross-validation. You could pretty easily extend this from 10-fold to n-fold. Think about how to generalize further. Test your function with some data! You can put your function in a `name.R` (or similar) file, in the `05-ML_kaggle` directory of the class repo.
+
+
+### Questions
+
+ * You want to use KNN with a training set to eventually make predictions on new data. How will you choose K? (Describe a process that results in a choice for K.)
+ * What other thoughts, comments, concerns, and questions do you have? What's on your mind?
 
 
 ### After

@@ -3,10 +3,14 @@
 
 ### Blogs/Aggregators:
 
+ * The [Ranker blog](http://data.ranker.com/) features articles from Ravi Iyer.
+ * [Simply Statistics](http://simplystatistics.org/) is the blog of Jeff Leek, Roger Peng, and Rafa Irizarry.
+ * Hilary Mason's [blog](http://www.hilarymason.com/) always has good things.
  * [Paco Nathan](http://liber118.com/pxn/) has a very nice web site and email newsletter.
  * [DataTau](http://www.datatau.com/) is like [Hacker News](https://news.ycombinator.com/) for data.
  * [r/MachineLearning](http://www.reddit.com/r/MachineLearning/) on reddit
  * [yhat's blog](http://blog.yhathq.com/) often has good original content, often on data science with `python`.
+ * [The Endeavor](http://www.johndcook.com/blog/) is the blog of John D. Cook, with a focus on applied statistics.
  * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/) is the blog of Andrew Gelman, mostly on Bayesian statistics.
  * [DataScholars](http://datascholars.com/) posts articles on data science, computer science, machine learning, etc.
  * [Data Community DC](http://datacommunitydc.org/blog/)
@@ -17,6 +21,10 @@
  * The Columbia [Data Science blog](http://columbiadatascience.com/) was active in fall of 2013 and could be active again. (See also _Doing Data Science_ in books, below.)
  * The [dataists](http://www.dataists.com/) blog hasn't been active for a while, but has some old gems.
  * [Jeff Knupp](https://www.jeffknupp.com/) is quite the guy when it comes to Python.
+ * Benedikt Koehler has a neat blog called [Beautiful Data](http://beautifuldata.net/).
+ * [FastML](http://fastml.com/): "Machine learning made easy"
+ * [Edwin Chen](http://blog.echen.me/) has a fun blog.
+ * [FiveThirtyEight](http://fivethirtyeight.com/) is now a kind of data journalism syndicate.
 
 
 ### Books:
@@ -40,6 +48,8 @@
 ### Articles/Guides:
 
  * [Documenting with KnitR](http://onepager.togaware.com/KnitR.pdf) (using LaTeX for reports)
+ * Facebook article on deep learning for facial recognition: [DeepFace: Closing the Gap to Human-Level Performance in Face Verification](https://www.facebook.com/publications/546316888800776/)
+ * The [UCLA IDRE Statistical Computing site](https://idre.ucla.edu/stats) is a rich resource for several computing environments (`R`, Stata, SPSS, SAS, etc.).
 
 
 ### Tools
@@ -54,6 +64,7 @@
  * [O'Reilly Strata Conference](http://strataconf.com/) (has also crossed with Hadoop World)
  * [DataGotham](http://www.datagotham.com/)
  * [PyData](http://pydata.org/)
+ * [BigConf](http://www.bigconf.io/): The Mid-Atlantic Data Conference
 
 
 # Journals:
@@ -84,6 +95,8 @@ People publish in a lot of places; other journal suggestions welcomed!
 
 ### Online educational resources:
 
+ * A Udacity course on [Exploratory Data Analysis](https://www.udacity.com/course/ud651). "Investigate, Visualize, and Summarize Data Using R" - materials available for free.
+ * Roger Peng's [YouTube playlists](https://www.youtube.com/user/rdpeng/playlists) include his Computing for Data Analysis videos, which are quite good. `R` plotting content is in [week three](https://www.youtube.com/playlist?list=PLjTlxb-wKvXOzI2h0F2_rYZHIXz8GWBop).
  * [CS 194-16](http://datascienc.es/) Introduction to Data Science, a course by Jeff Hammerbacher and Mike Franklin
  * [Software Carpentry](http://software-carpentry.org/)
  * [School of Data](http://schoolofdata.org/)
@@ -97,12 +110,14 @@ People publish in a lot of places; other journal suggestions welcomed!
  * Google's [Making Sense of Data](https://datasense.withgoogle.com/) course materials (seems very introductory; focuses on Google Fusion Tables)
  * [Quant Education](http://www.youtube.com/channel/UC37c5dtVf3BHWFr5v9NKSKw) YouTube channel of videos on `R`
  * [Deep Learning tutorials](http://deeplearning.net/tutorial/contents.html) from deeplearning.net
+ * [Deep Learning Reading List](http://deeplearning.net/reading-list/) from deeplearning.net
  * [Unsupervised Feature Learning and Deep Learning tutorials](http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial) from Stanford
  * The well-known [machine learning couse](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning) of Andrew Ng; uses MatLab/Octave and focuses on gradient descent from the beginning
 
 
 ### Face to face educational programs:
 
+ * [Software Carpentry](http://software-carpentry.org/) is pretty great.
  * [District Data Labs](http://www.districtdatalabs.com/) (DC)
  * [Zipfian Academy](http://www.zipfianacademy.com/) (San Francisco)
  * [Persontyle](http://www.persontyle.com/) school of data science
