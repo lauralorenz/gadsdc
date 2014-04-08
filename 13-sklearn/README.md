@@ -22,7 +22,13 @@ Question review.
 
 [statsmodels](http://statsmodels.sourceforge.net/) for `Python`
 
+[Machine Learning Cheat Sheet (for scikit-learn)](http://peekaboo-vision.blogspot.com/2013/01/machine-learning-cheat-sheet-for-scikit.html)
+
 Note: show vectorizers, including probably tf-idf
+
+[Logistic Regression w/ Statsmodel - Well Switching in Bangledesh](http://nbviewer.ipython.org/github/carljv/Will_it_Python/blob/master/ARM/ch5/arsenic_wells_switching.ipynb)
+
+(Assign standard GA logistic assignment from CA here.)
 
 
 ### After

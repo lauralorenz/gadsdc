@@ -20,14 +20,31 @@ Application presentation.
 
 Question review.
 
-Bring in standard GA logistic assignment from CA here?
+Warm up to slides with duck example:
 
-[Logistic Regression w/ Statsmodel - Well Switching in Bangledesh](http://nbviewer.ipython.org/github/carljv/Will_it_Python/blob/master/ARM/ch5/arsenic_wells_switching.ipynb)
+ * Say the _probability_ that an animal is a duck is 25%, or 0.25.
+ * Then the _odds_ that the animal is a duck is 0.25/(1-0.25) = 1/3, or "one to three against". (So if you bet a dollar to win three more if it's a duck, you break even long term.)
+ * Then the _log odds_ that the animal is a duck is the (natural) log of the odds, ln(1/3) or just log(1/3), about -1.1.
+ * If animals either quack or don't quack, we can make a dummy variable called quack and compare duck-ness of quackers vs. non-quackers. Quackers are ducks 90% of the time, and non-quackers are ducks 20% of the time, say. Then the _odds ratio_ is (0.9/(1-0.9))/(0.2/(1-0.2)) and the _log odds ratio_ is the (natural) log of that.
 
- * [Fast Logistic Regression: Mahout](https://cwiki.apache.org/MAHOUT/logistic-regression.html)
- * [Fast Logistic Regression: Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki)
- * [Fast Logistic Regression: LIBLINEAR](http://www.csie.ntu.edu.tw/~cjlin/liblinear/)
+Logistic regression [slides](slides.pdf).
+
+Follow up from the slides with duck example:
+
+ * Using the quack vs. no-quack example, write out the logistic function. Fill in the values for the coefficients and confirm calculated probabilities are correct.
+
+Logistic regression [example](logistic.Rmd).
+
+Note that everything we've talked about with regard to test sets and cross-validation, and even everything we've done with regularization, can be applied to logistic regression! (The `glmnet` package has a `family` argument just like `glm` has.)
+
+To get started with a beefier example, predict whether a car is a bad buy using the prepared [lemons](https://github.com/ajschumacher/gadsdata/tree/master/lemons) data.
+
 
 ### After
 
-[Naive Bayes v. Logistic Regression](http://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf)
+Optional:
+
+ * Read [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](http://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf). This will likely help you to better understand both Naive Bayes and logistic regression, and how they can be thought of as related.
+ * The UCLA Institute for Digital Research and Education has a lot of resources on using statistical software, such as: [R Data Analysis Examples: Logit Regression](http://www.ats.ucla.edu/stat/r/dae/logit.htm).
+ * For a few general multiclass reduction approaches, read these papers on [Weighted One-Against All](http://hunch.net/~jl/projects/reductions/woa/woa.pdf) and [Error-Correcting Tournaments](http://hunch.net/~beygel/tournament.pdf).
+ * Read much more on GLMs with a [chapter](http://www.sagepub.com/upm-data/21121_Chapter_15.pdf) on the topic.

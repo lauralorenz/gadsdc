@@ -14,11 +14,13 @@ Application presentation.
 
 Question review.
 
-Arun's new slides on "more"...
-
 [Introduction to Latent Dirichlet Allocation](http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/)
 
 [Denoising Autoencoders in Theano](http://deeplearning.net/tutorial/dA.html)
+
+`R` packages that do the well-known tree algorithms of [Ross Quinlan](http://www.rulequest.com/): `RWeka`'s `J48` is C4.5, `C50` has C5.0
+
+https://www.jetpac.com/deepbelief
 
 
 ### After
