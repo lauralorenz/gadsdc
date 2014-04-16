@@ -19,34 +19,38 @@ Application presentation.
 
 Question review.
 
-Likely use the Social Web book appendix C, though it has some issues - missing bit on UTF-8, etc.
+Python [slides](slides.pdf).
 
-Possibly mention here or add to further resources: [Datalicious Notebookmania – My favorite 7 IPython Notebooks](http://beautifuldata.net/2014/03/datalicious-notebookmania-my-favorite-7-ipython-notebooks/)
+Running Python interactively, running Python as a script, running Python as an executable with a shebang:
+
+    #!/usr/bin/env python
+
+Compare to `R` with `Rscript`, and `rnorm` vs. `np.random.normal`.
+
+Exercise: [Pair](http://en.wikipedia.org/wiki/Pair_programming) up and write FizzBuzz in Python.
+
+> Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+Introduce IPython (with `?`, tab completion, `%time` and `%timeit`, `%run`, `%paste`) and play with basic [web scraping](scrape.py) using [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
+
+Stupid Python tricks: `from __future__ import division`, mutable lists, `str.join`, etc.
+
+Exercise: Pair up and use IPython to read in the linear regression assignment (salary) training data, using the `csv` module. Use the Python docs! Use Python to calculate the average salary.
+
+Introduce [IPython Notebook](http://ipython.org/ipython-doc/dev/notebook/) and show some basic plotting. Be sure to check out the [IPython Notebook Viewer](http://nbviewer.ipython.org/)!
 
 Handy shortcut:
 
     alias nb='ipython notebook --pylab=inline'
 
-IPython Notebook [documentation](http://ipython.org/ipython-doc/dev/notebook/)
+Exercise: Make a histogram of salaries (from the linear regression assignment training data) in an IPython Notebook, using Python (i.e., not `rpy2`).
 
-IPython Notebook [rmagic](http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html)
+There are pretty many Python visualization options now. Here are a few:
 
-[Introduction to Python](http://nbviewer.ipython.org/urls/bitbucket.org/amjoconn/watpy-learning-to-code-with-python/raw/3441274a54c7ff6ff3e37285aafcbbd8cb4774f0/notebook/Learn%20to%20Code%20with%20Python.ipynb)
-
-[Python data structures](http://nbviewer.ipython.org/github/profjsb/python-bootcamp/blob/master/DataFiles_and_Notebooks/02_AdvancedDataStructures/data_structures.ipynb)
-
-[Learn pandas](http://nbviewer.ipython.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/01%20-%20Lesson.ipynb)
-
-Visualization:
-
+ * [Matplotlib](http://matplotlib.org/) ([tutorial](http://jakevdp.github.io/mpl_tutorial/))
+ * [ggplot for Python](https://github.com/yhat/ggplot/) ([introductory blog post](http://blog.yhathq.com/posts/ggplot-for-python.html))
  * [Vincent](https://vincent.readthedocs.org/)
- * [Matplotlib](http://matplotlib.org/)
- * [ggplot for Python](https://github.com/yhat/ggplot/)
  * [Bokeh](https://github.com/ContinuumIO/bokeh)
-
-http://patsy.readthedocs.org/en/latest/overview.html
-http://statsmodels.sourceforge.net/
-http://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 
 ### After
@@ -54,3 +58,7 @@ http://www.crummy.com/software/BeautifulSoup/bs4/doc/
 Prepare three visualizations based on your final project data. Each one should show the viewer something about the data - the viewer should know something more, hopefully something interesting, after viewing the visualization. Clear labels will be important. You can use `R` or `python` (or both) and include code (including R markdown and/or IPython Notebooks) but you should also produce image files that can be viewed separately. Leave your image and source files in the `10-python` directory of the class repo. It would be good to name your files something consistent, like `name01.png`, `name02.png`, `name.R`, etc. The purpose of submitting image files in this way is so that they can be easily viewed all together when they are presented next week Wednesday.
 
 Optional:
+
+ * If you'd like to walk through Python basics even more, check out this notebook [Introduction to Python](http://nbviewer.ipython.org/urls/bitbucket.org/amjoconn/watpy-learning-to-code-with-python/raw/3441274a54c7ff6ff3e37285aafcbbd8cb4774f0/notebook/Learn%20to%20Code%20with%20Python.ipynb). Or this one on [Python data structures](http://nbviewer.ipython.org/github/profjsb/python-bootcamp/blob/master/DataFiles_and_Notebooks/02_AdvancedDataStructures/data_structures.ipynb). There are a ton of public notebooks - just have fun exploring the [IPython Notebook Viewer](http://nbviewer.ipython.org/) and follow your interest!
+
+ * You can run `R` code from _within_ IPython! Check out [rmagic](http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html).

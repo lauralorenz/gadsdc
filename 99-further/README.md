@@ -27,6 +27,8 @@
  * [FiveThirtyEight](http://fivethirtyeight.com/) is now a kind of data journalism syndicate.
  * [Win-Vector Blog](http://www.win-vector.com/blog/): "The applied theorist's point of view"
  * [Machine Learning Mastery](http://machinelearningmastery.com/): "Making programmers awesome at machine learning"
+ * Quora's [Machine Learning section](http://www.quora.com/Machine-Learning) has interesting things sometimes.
+ * The [Aggregate Knowledge tech blog](http://blog.aggregateknowledge.com/) has some good stuff on large scale and streaming technology.
 
 
 ### Books:
@@ -40,12 +42,15 @@
  * [Statistics Done Wrong](http://www.refsmmat.com/statistics/)
  * [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
  * Machine Learning for Hackers [[amazon]](http://www.amazon.com/Machine-Learning-Hackers-Drew-Conway/dp/1449303714/) [[code]](https://github.com/johnmyleswhite/ML_for_Hackers) by Drew Conway and John Myles White
+     * [Will it Python?](http://slendermeans.org/pages/will-it-python.html) is a blog series in which the `R` code from _Machine Learning for Hackers_ is translated to Python.
  * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Cathy-ONeil/dp/1449358659) is a book that came out of the data science course at Columbia and [Cathy O'Neil](http://mathbabe.org/)'s blogging of said course.
  * Data Mining with R: Learning with Case Studies [[book site]](http://www.dcc.fc.up.pt/~ltorgo/DataMiningWithR/) [[amazon]](http://www.amazon.com/Data-Mining-Learning-Knowledge-Discovery/dp/1439810184)
  * [Data Science for Business: What you need to know about data mining and data-analytic thinking](http://www.amazon.com/Data-Science-Business-data-analytic-thinking/dp/1449361323/) (used as a textbook at NYU)
  * Microsoft's [Deep Learning: Methods and Applications](http://research.microsoft.com/pubs/209355/NOW-Book-Revised-Feb2014-online.pdf) (free PDF)
  * [Mining the Social Web, 2nd Edition](http://shop.oreilly.com/product/0636920030195.do) is available for sale and also has a fairly comprehensive [github repository](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition) with all the code from the book, in friendly IPython Notebook format, even with a whole virtual machine setup.
  * [Twitter Data Analytics](http://tweettracker.fulton.asu.edu/tda/) is available free online as a pre-print; it uses Java and MongoDB.
+ * [Little Book of R for Time Series](http://a-little-book-of-r-for-time-series.readthedocs.org/en/latest/)
+ * [Introduction to Data Technologies](https://www.stat.auckland.ac.nz/~paul/ItDT/) by Paul Murrell "is a book that provides a basic introduction to a number of computer technologies for working with data (HTML, XML, Databases, SQL, regular expressions, and R)".
 
 
 ### Articles/Guides:
@@ -105,6 +110,8 @@ People publish in a lot of places; other journal suggestions welcomed!
  * [School of Data](http://schoolofdata.org/)
  * [videolectures.net](http://videolectures.net/)
  * Coursera / University of Washington [Machine Learning](https://www.coursera.org/course/machlearning)
+ * Coursera / Stanford [Machine Learning](https://www.coursera.org/course/ml)
+ * Udacity [Artificial Intelligence](https://www.udacity.com/course/cs271) with Peter Norvig and Sebastian Thrun
  * [statistics.com](http://www.statistics.com/)
  * [Pluralsight](http://pluralsight.com/)
  * [Enginehere](https://www.enginehere.com/)
@@ -124,9 +131,12 @@ People publish in a lot of places; other journal suggestions welcomed!
  * [District Data Labs](http://www.districtdatalabs.com/) (DC)
  * [Zipfian Academy](http://www.zipfianacademy.com/) (San Francisco)
  * [Persontyle](http://www.persontyle.com/) school of data science
+ * [HackerRetreat](http://hackerretreat.com/) is doing something interesting in Berlin.
 
 
 ### Other resource collections
 
  * [The Open Source Data Science Masters](http://datasciencemasters.org/) curriculum
  * [listudy](http://www.listudy.com/): lists for learning data science
+ * Quora [post](http://www.quora.com/Machine-Learning/What-are-some-good-resources-for-learning-about-machine-learning): "What are some good resources for learning about machine learning?"
+ * MetaOptimize [post](http://metaoptimize.com/qa/questions/186/good-freely-available-textbooks-on-machine-learning): "Good Freely Available Textbooks on Machine Learning"
